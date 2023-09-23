@@ -1,0 +1,87 @@
+body{
+    background-image: url(images/credit.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#introtitle{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3em;
+    text-shadow: 3px 2px 5px rgb(255, 247, 0) , -3px -2px 5px red;
+    animation-name: slideup;
+    animation-duration: 2s;
+}
+ #TYX{
+    margin-left: 20px;
+ }
+.people{
+    color: rgb(137, 228, 178);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+    text-shadow: 3px 2px 5px rgb(40, 145, 152) , -5px -5px 5px red;
+
+}
+
+.contribution{
+    color: rgb(241, 244, 245);
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+  
+}
+
+#table{
+    list-style-type: none;
+}
+.pfp{
+    text-align: center;
+    animation-name: slideleft;
+    animation-duration: 2s;
+}
+
+@keyframes slideleft{
+    from{transform: translate(100%);}
+}
+
+@keyframes slideup{
+    from{transform: translateY(100%);}
+}
+
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(7, 55, 227);
+    padding: 0px;
+    margin: auto;
+    overflow: hidden;
+  
+}
+
+.navbar a{
+    color: rgb(234, 177, 234);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+   
+ 
+}
+
+.navbar a:hover{
+    background-color: lightgray;
+    color: rgb(132, 81, 5);
+}
+.navbar li{
+    font-size: 1.4em;
+    float: left;
+    text-align: center;
+    
+    
+}
+
