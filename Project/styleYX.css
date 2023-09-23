@@ -1,0 +1,157 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.intro{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+    text-shadow: 3px 2px 5px rgb(255, 247, 0) , -3px -2px 5px red;
+    animation-name: slideup;
+    animation-duration: 2s;
+    
+
+}
+
+.intropara{
+    color: lightgray;
+    text-decoration: underline;
+    font-size: 2em;
+    text-shadow: 3px 2px 5px rgb(91, 93, 227) , -3px -2px 5px red;
+}
+
+.starter{
+    color: white;
+    font-size: 1.8em;
+}
+
+#introdesc{
+    color:white;
+    font-size: 1.5em;
+}
+
+#contentintro{
+    color:white;
+    font-size: 1.5em;
+}
+
+#list{
+    color:white;
+    font-size: 1.5em;
+}
+
+.research{
+    color:white;
+    font-size: 1.5em;
+}
+
+#researchtitle{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+    text-shadow: 3px 2px 5px rgb(255, 247, 0) , -3px -2px 5px red;
+    animation-name: slideup;
+    animation-duration: 2s;
+}
+
+#researchcontent{
+    color:rgb(235, 213, 213);
+    font-size: 1.2em;
+}
+
+#vid{
+    text-align: center;
+}
+
+#result{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+    text-shadow: 3px 2px 5px rgb(255, 247, 0) , -3px -2px 5px red;
+    animation-name: slideup;
+    animation-duration: 2s;
+}
+
+#table{
+    border: 3px double cyan;
+    font-size: 2em;
+    padding: 8px;
+    margin: auto;
+}
+
+#conclusiontitle{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+    text-shadow: 3px 2px 5px rgb(255, 247, 0) , -3px -2px 5px red;
+    animation-name: slideup;
+    animation-duration: 2s;
+}
+
+#conclusioncontent{
+    color:white;
+    font-size: 1.5em;
+}
+
+#concludingexplain{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
+    text-shadow: 3px 2px 5px rgb(90, 142, 201) , -3px -2px 5px rgb(245, 80, 228);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slideup{
+    from{transform: translateY(100%);}
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(22, 62, 45);
+    padding: 0px;
+    margin: auto;
+    overflow: hidden;
+  
+}
+
+.navbar a{
+    color: rgb(234, 177, 234);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+   
+ 
+}
+
+.navbar a:hover{
+    background-color: lightgray;
+    color: rgb(132, 81, 5);
+}
+.navbar li{
+    font-size: 1.4em;
+    float: left;
+    text-align: center;
+    
+    
+}
+
